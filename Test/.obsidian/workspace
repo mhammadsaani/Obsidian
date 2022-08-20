@@ -1,0 +1,131 @@
+{
+  "main": {
+    "id": "4325c5d129c372b1",
+    "type": "split",
+    "children": [
+      {
+        "id": "8bcef554367e5995",
+        "type": "leaf",
+        "state": {
+          "type": "graph",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "01543b698da0c74a",
+    "type": "split",
+    "children": [
+      {
+        "id": "d07af67a73534665",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6a112d8c6a8828ea",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "5c5e54447e8d8cef",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "00b978a138327713",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b37f70fad26a9818",
+    "type": "split",
+    "children": [
+      {
+        "id": "12521244629d4011",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e35170b3ca01e9ca",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "241bc228c40099bb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e34cb213ef69d5d4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "38852aca047d2289",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "8bcef554367e5995",
+  "lastOpenFiles": [
+    "Course Outline.md",
+    "Protocols.md",
+    "Transmission  Control Protoco Model.md",
+    "Network.md",
+    "Internet.md",
+    "2022-08-11.md"
+  ]
+}
