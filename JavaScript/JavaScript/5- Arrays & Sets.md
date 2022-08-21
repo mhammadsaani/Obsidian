@@ -167,3 +167,171 @@ console.log(mappedArr)
 
 
 ```
+
+
+# Arrays Destructing
+```
+const finalMenuItems = [
+  "American Cheeseburger",
+  "Southern Fried Chicken",
+  "Glazed Salmon"
+];
+
+const [first, second, third] = finalMenuItems;
+```
+
+Destructing using rest operator
+```
+const finalMenuItems = [
+  "American Cheeseburger",
+  "Southern Fried Chicken",
+  "Glazed Salmon"
+];
+
+const [winner, ...losers] = finalMenuItems;
+
+console.log({ winner, losers });
+
+winner = "American Cheeseburger"
+loosers = ["Southern Fried Chicken", "Glazed Salmon"]
+
+```
+
+## ***rest  operator should be at last ***
+
+
+## Iterating over objects
+Can be done using following ways
+
+1. for-in loop 
+```
+// for-in loop
+
+const obj = { one: 1, two: 2 };
+for (const key in obj) {
+  console.log('value', obj[key]);
+}
+```
+2. Object.keys(objName)
+This returns all the keys of array and we can check if certain key exist or not using this
+```
+const user = {
+  name: 'John',
+  age: 29  
+};
+
+const keysArr = Object.keys(user)
+console.log(keysArr.includes("name"))
+```
+4. Object.values(objName)
+This returns all the values of the keys
+```
+const user = {
+  name: 'John',
+  age: 29  
+};
+
+Object.keys(user).map((properties) => {
+    console.log(user[properties])
+})
+
+// 'John'
+// 29
+```
+5. Object.entries(objName)
+This returns both the keys and values in form of 2d array
+```
+const user = {
+  name: 'John',
+  age: 29  
+};
+
+console.log(Object.entries(user))
+// [["name", "John"], ["age", 29]]
+```
+
+Explain this code with the output
+
+```
+const users = {
+  '2345234': {
+    name: "John",
+    age: 29
+  },
+  '8798129': {
+    name: "Jane",
+    age: 42
+  },
+  '1092384': {
+    name: "Fred",
+    age: 17 
+  }
+};
+
+const usersOver20 = Object.entries(users).reduce((acc, [id, user]) => {
+  if (user.age > 20) {
+    acc.push({ ...user, id });
+  }  
+  return acc;
+}, []);
+console.log(usersOver20);
+```
+
+# Sets
+converting array to set and back to array
+
+```
+const customerDishes = [
+  "Chicken Wings",
+  "Fish Sandwich",
+  "Beef Stroganoff",
+  "Grilled Cheese",
+  "Blue Cheese Salad",
+  "Chicken Wings",
+  "Reuben Sandwich",
+  "Grilled Cheese",
+  "Fish Sandwich",
+  "Chicken Pot Pie",
+  "Fish Sandwich",
+  "Beef Stroganoff"
+];
+
+const uniqueDishes = [...new Set(customerDishes)];
+console.log(uniqueDishes)
+
+// ["Chicken Wings", "Fish Sandwich", "Beef Stroganoff", "Grilled Cheese", "Blue Cheese Salad", "Reuben Sandwich", "Chicken Pot Pie"]
+
+
+```
+
+### Iterating over sets
+
+```
+const numbers = new Set([[1], [2], [3]]);
+
+for (const num of numbers) {
+	console.log(num);  
+}
+```
+***note***
+as objects are passed by reference and their values cannot be compared. Therefore, two objects/ arrays with same properties or values cannot be compared and set will not consider them same.
+
+
+# Take grip on these
+```
+/* 
+- map()
+- filter()
+- reduce()
+- some() / every()
+- find() / findIndex()
+- forEach()
+
+Plus:
+
+- slice()
+- concat()
+- includes()
+- array spread operator
+*/
+```

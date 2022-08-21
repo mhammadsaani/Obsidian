@@ -40,7 +40,7 @@ console.log(`${obj.name} is from class of ${obj.class} having roll number ${obj.
 
 ```
 
-But OBJECT DESTRUCTING can really help us
+***But [[OBJECT DESTRUCTING]] can really help us***
 ```
 const obj = {name: "hammad", rollNum: 56, year: 2019}
 const {name, rollNum, year} = obj
@@ -88,6 +88,22 @@ console.log(allData)
 ***Note***
 1. Order matters 
 2. Duplicate Properties are removed if they have same values. For different values the value of the property which occurs in last is used.
+
+***Iterating over objects***
+```
+const obj = { one: 1, two: 2 };
+
+for (const key in obj) {
+    console.log("key", key)
+    console.log('value', obj[key]);
+}
+
+//  ›key,"one"
+	›value,1
+	›key,"two"
+	›value,2
+```
+
 
 ### Objects Limitations
 Object do implicit key convertion to string.
