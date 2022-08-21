@@ -30,7 +30,7 @@ const result = temperatures.some( temp => {
 } )
 
 console.log(result)
-// false
+// true
 
 ```
 
