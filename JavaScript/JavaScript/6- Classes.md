@@ -58,9 +58,10 @@ console.log(student2.subjects);
 **Prototype Defintion**
  - Every object in JavaScript has a built-in property, which is called its prototype
 
-1. `prototypical inheritance - each instantiated object (from constructor function) inherits from prototype
+1. `prototypical inheritance - each object ( when created from constructor function) inherits from prototype 
+	- To understand it, when we make a prototype in form of constructor, then we make objects from it. At the time of object creation, objects inherits all the properties from prototype. 
 2. `every object has prototype`
-
+	- Meaning whenever we create an object, it is created from a prototype ( a constructor function)
 
 ```
 function Student(id, name, subjects = []) {
@@ -74,11 +75,14 @@ const student1 = new Student(1, 'Reed');
 console.log(Object.getPrototypeOf(student1).constructor);
 console.log(student1.__proto__);
 ```
+When we access an objects prototype, it will simply give us the Object definition but when constructor of that object is access, original contructor fucntion will be given in output.
+
+
 
 ### Constructor vs Classes
 1. classes === constructor functions (they operate in same way)
 2. classes - create objects with shared methods
-3. functions declared in contructors are not propertes. So, cannot be accessed using `Student.functionName()` syntax
+3. functions declared in contructors are not propertes. So, cannot be accessed using `ClassName.functionName()` syntax
 
 ```
 class Student {
@@ -137,3 +141,7 @@ console.log(saleProduct1.getSalePrice());
 
 Classes Advance Concepts
 
+```
+.bind(this)
+```
+This method is used to set the context of this keyword because it behaves in different ways. Sometimes, this refers to class and sometimes not and to explicitly define it, we use bind method.
