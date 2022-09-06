@@ -1,15 +1,15 @@
 {
   "main": {
-    "id": "9ef10712918982bb",
+    "id": "0083fbbdd921a448",
     "type": "split",
     "children": [
       {
-        "id": "e898b26ccbed0fb2",
+        "id": "984f30e935c3f86c",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "7- DOM.md",
+            "file": "2- How JavaScript Code is Executed.md",
             "mode": "source",
             "source": false
           }
@@ -19,15 +19,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "ea3605a49b297e2d",
+    "id": "62e1b007de3f327b",
     "type": "split",
     "children": [
       {
-        "id": "8ad6ad6a2507fb9b",
+        "id": "4b72008906375d33",
         "type": "tabs",
         "children": [
           {
-            "id": "57b2e9623aa2718b",
+            "id": "8b75067ec422071f",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,7 +35,7 @@
             }
           },
           {
-            "id": "a1e30e54e4dde702",
+            "id": "13d60070e791c983",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -50,7 +50,7 @@
             }
           },
           {
-            "id": "80b642e1d44cd519",
+            "id": "5c6431e69a61b7d1",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -64,20 +64,20 @@
     "width": 300
   },
   "right": {
-    "id": "14b0dc9f15c365af",
+    "id": "bf11ae632b79262a",
     "type": "split",
     "children": [
       {
-        "id": "5324c243fac2113b",
+        "id": "2d5991ad35d182e3",
         "type": "tabs",
         "children": [
           {
-            "id": "ae1b89692d0079dd",
+            "id": "d81292b015316056",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "7- DOM.md",
+                "file": "2- How JavaScript Code is Executed.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,19 +89,19 @@
             }
           },
           {
-            "id": "26692047837f56e8",
+            "id": "1475c5cc3a1cf160",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "7- DOM.md",
+                "file": "2- How JavaScript Code is Executed.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "894a3431095db6b9",
+            "id": "66c6cf4995742a27",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -112,12 +112,12 @@
             }
           },
           {
-            "id": "978fead2cf3b7f70",
+            "id": "5ad7a6e9325c75c9",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "7- DOM.md"
+                "file": "2- How JavaScript Code is Executed.md"
               }
             }
           }
@@ -128,16 +128,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e898b26ccbed0fb2",
+  "active": "8b75067ec422071f",
   "lastOpenFiles": [
-    "6- Classes.md",
-    "0- Outline.md",
-    "7- DOM.md",
-    "5- Arrays & Sets.md",
-    "3- Functions.md",
-    "4- Objects and Maps.md",
-    "1- Variable and Strings.md",
-    "2- Types and Conditionals.md",
-    "Variable and Srings.md"
+    "Execution Context is created.md",
+    "2- How JavaScript Code is Executed.md",
+    "1- How JavaScript Works.md"
   ]
 }
