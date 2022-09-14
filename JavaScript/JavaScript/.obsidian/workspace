@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "8- Promises.md",
+            "file": "9- Essential Concepts.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "8- Promises.md",
+                "file": "9- Essential Concepts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "8- Promises.md",
+                "file": "9- Essential Concepts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "8- Promises.md"
+                "file": "9- Essential Concepts.md"
               }
             }
           }
@@ -128,8 +128,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "57b2e9623aa2718b",
+  "active": "e898b26ccbed0fb2",
   "lastOpenFiles": [
+    "8- Promises.md",
     "7- DOM.md",
     "6- Classes.md",
     "0- Outline.md",
