@@ -111,3 +111,28 @@ button.addEventListener('click', function() {
 ```
 
 
+
+
+### State 
+State is data that has to be managed (we have to keep track) provided by user.
+State is important because it tells us about the status.
+
+```
+State is an object which stores all user data 
+and
+State Management is basically what data should be visible to a user when He is using an app
+```
+
+### Analogy to understand
+One way to do program is that we have an auth function which tells what things to render based on whether the user is present or not.
+The other way is that we have an object (commonly refered as state) which store the auth attribute and if user is present, then the state is changed to true and now the rendering is happening based on auth property in state object. 
+The second approach is more readable and clear.
+
+
+## A Simple Graph
+1. State – an object that stores all the app data
+2. View – a function that returns a string of HTML based on the current state
+3. Update – a function that is the only way to change the state and re-render the view
+
+### How reducer helps manage state???
+A reducer is simply a function which takes two parameters (state, action) and change the state based on action.

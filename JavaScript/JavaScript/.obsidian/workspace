@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e898b26ccbed0fb2",
+        "id": "d1fb1235c9daa7ad",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "9- Essential Concepts.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -77,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "9- Essential Concepts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "9- Essential Concepts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,9 +110,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "9- Essential Concepts.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -128,17 +120,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e898b26ccbed0fb2",
+  "active": "d1fb1235c9daa7ad",
   "lastOpenFiles": [
+    "Untitled.md",
+    "9- Essential Concepts.md",
+    "2- Types and Conditionals.md",
+    "6- Classes.md",
     "8- Promises.md",
     "7- DOM.md",
-    "6- Classes.md",
     "0- Outline.md",
     "5- Arrays & Sets.md",
     "3- Functions.md",
-    "4- Objects and Maps.md",
-    "1- Variable and Strings.md",
-    "2- Types and Conditionals.md",
-    "Variable and Srings.md"
+    "4- Objects and Maps.md"
   ]
 }
